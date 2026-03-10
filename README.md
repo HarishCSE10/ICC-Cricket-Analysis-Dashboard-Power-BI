@@ -1,4 +1,5 @@
 🏏 ICC Cricket World Cup 2023: Power BI Analytics Dashboard
+
 🚀 Project Overview
 This project is an end-to-end Data Analytics solution that transforms raw ICC World Cup 2023 statistics into an interactive dashboard. It provides a 360-degree view of player performances, enabling users to analyze batting and bowling metrics through a highly personalized and interactive interface.
 
