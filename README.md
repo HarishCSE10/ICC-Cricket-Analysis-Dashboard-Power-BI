@@ -188,11 +188,6 @@ Users can select **two players to compare their performance side-by-side**.
   <img src="Images/Partnership.png" width="900">
 </p>
 
-## Player Comparison
-<p align="center">
-  <img src="Images/Playercomparison.png" width="900">
-</p>
-
 ---
 
 # 👨‍💻 Author
