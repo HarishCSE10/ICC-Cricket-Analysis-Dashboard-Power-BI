@@ -1,49 +1,202 @@
-🏏 ICC Cricket World Cup 2023: Power BI Analytics Dashboard
+<h1 align="center">🏏 ICC Cricket World Cup 2023 Dashboard</h1>
+<h3 align="center">Interactive Power BI Analytics Dashboard</h3>
 
-🚀 Project Overview
-This project is an end-to-end Data Analytics solution that transforms raw ICC World Cup 2023 statistics into an interactive dashboard. It provides a 360-degree view of player performances, enabling users to analyze batting and bowling metrics through a highly personalized and interactive interface.
+<p align="center">
+<img src="https://img.shields.io/badge/Tool-Power%20BI-yellow?style=for-the-badge&logo=powerbi"/>
+<img src="https://img.shields.io/badge/Data%20Visualization-Dashboard-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Sports-Cricket-green?style=for-the-badge"/>
+</p>
 
-🛠️ Technical Architecture & Data Pipeline
-Data Sourcing: Integrated data from multiple sources, including Excel workbooks and SQL databases.
+---
 
-Power Query (ETL): Performed extensive data cleaning, including resolving Type Mismatch errors (0x80020005) and handling null values to ensure data integrity.
+# 📊 Project Overview
 
-Data Modeling: Established a relational schema connecting Batting_Stats, Bowling_Stats, and Player_Metadata to allow for seamless cross-filtering.
+This project presents an **interactive ICC Cricket World Cup 2023 Analytics Dashboard** built using **Power BI**.  
+The dashboard analyzes tournament performance including **batting, bowling, partnerships, and player comparisons**.
 
-System Resilience: Successfully managed project delivery despite hardware challenges, including a system SSD crash and lab environment freezes during development.
+It transforms raw cricket statistics into **clear visual insights for better analysis of team and player performance**.
 
-🧠 Advanced DAX Implementation
-I authored custom DAX measures to enhance the user experience and analytical depth:
+---
 
-Dynamic UI Logic: Implemented HASONEVALUE and SELECTEDVALUE to ensure the dashboard remains clean. For example, the Player Name only appears when a specific player is selected in the slicer, preventing "alphabetical default" errors.
+# 🔗 Live Dashboard
 
-Custom Bowling Figures: Created a complex string-based measure to display figures in the traditional Wickets/Runs format (e.g., 5/24) rather than a mathematical division.
+👉 https://app.powerbi.com/view?r=eyJrIjoiNDFiODcwZTktZDM1NC00NDg0LWFkNTgtNGE4Zjc0M2I4OGU2IiwidCI6IjEwYjg3YjZiLTkzYjYtNGZlYy1hOGMyLWFmZmJhNDk1OTZkYiJ9
 
-Zero-Default State: Designed logic to ensure visuals remain blank or show a placeholder when no filter is active.
+---
 
-📊 Key Insights & Features
-Performance Tracking: Detailed analysis of top scorers like Virat Kohli (765 runs) and leading wicket-takers like Mohammad Shami.
+# 📊 Dashboard Pages
 
-Power Hitting Analysis: A dedicated visual correlation between boundaries (4s/6s) and scoring efficiency (Strike Rate).
+## 🏆 Tournament Overview
 
-Mobile Optimized: Developed a custom Mobile Layout for stakeholders to access insights on smartphones.
+This page shows the **overall summary of the tournament**.
 
-Slicer Synchronization: Ensured that filters applied on one page automatically update related visuals across the entire report.
+### Key Highlights
 
-🎮 Interactive Tournament Trivia
-Can you find these answers using my dashboard?
+- Top Scorer → **Virat Kohli (765 Runs)**
+- Top Wicket Taker → **Mohammed Shami (24 Wickets)**
+- Highest Score → **Glenn Maxwell (201)**
+- Most Hundreds → **Quinton de Kock (4)**
+- Most Fifties → **Virat Kohli (6)**
 
-The Milestone: Who scored exactly 765 runs to become the top scorer?
+### Additional Insights
 
-The Finisher: Which player maintained a Strike Rate above 150.00?
+- Player of the Tournament  
+- Player of the Final  
+- Team Points Table  
+- Boundary Split Analysis  
+- Champions and Runner-Up
 
-The Wall: Find the player with the highest batting average of 95.62.
+---
 
-How to Play: Use the "Select Player" slicer in the dashboard and see if the KPI cards match these records!
+# 🏏 Batting Stats
 
-📂 Repository Contents
-ICC Cricket Analysis.pbix: The core Power BI project file.
+This page analyzes **batting performance across players**.
 
-README.md: Technical documentation and presentation guide.
+### Key Metrics
 
-Data/: Cleaned datasets used for the visualization.
+- Highest Strike Rate
+- Highest Batting Average
+- Most Sixes
+- Most Fours
+
+### Visual Analysis
+
+- **Top 10 Run Scorers**
+- **Power Hitting Analysis**
+- Player Statistics Dashboard
+
+### Player Filters
+
+Users can filter by:
+
+- Player Name
+- Team
+
+Metrics update dynamically including:
+
+- Runs  
+- High Score  
+- Strike Rate  
+- 100s  
+- 50s  
+- 6s  
+- 4s  
+
+---
+
+# 🎯 Bowling Stats
+
+This page analyzes **bowler performance**.
+
+### Key Metrics
+
+- Most Wickets
+- Best Bowling Figures
+- Most Maidens
+- Most Economical Bowler
+
+### Visual Insights
+
+- **Team Wise Wickets**
+- **Best Bowlers Scatter Analysis**
+
+### Player Metrics
+
+- Matches Played  
+- Wickets  
+- Overs Bowled  
+- Economy  
+- Maidens  
+- Best Bowling Figure  
+- 4 Wickets  
+- 5 Wickets  
+
+---
+
+# 🤝 Partnership Stats
+
+This section analyzes **batting partnerships**.
+
+### Insights
+
+- Highest partnerships
+- Best batting pairs
+- Run contribution by partnerships
+- Team-wise partnership performance
+
+---
+
+# ⚔️ Player Comparison
+
+This feature allows **comparison between players**.
+
+### Comparison Metrics
+
+- Runs
+- Strike Rate
+- Batting Average
+- Wickets
+- Economy
+- Boundaries
+- Match Performance
+
+Users can select **two players to compare their performance side-by-side**.
+
+---
+
+# 🛠 Tools & Technologies
+
+| Tool | Purpose |
+|-----|------|
+| Power BI | Data Visualization |
+| DAX | Calculated Measures |
+| Excel | Data Source |
+| Data Modeling | Relationships |
+
+---
+
+# 📈 Key Dashboard Features
+
+✔ Interactive Filters  
+✔ Dynamic KPI Cards  
+✔ Player Comparison Tool  
+✔ Multi-page Dashboard Navigation  
+✔ Custom DAX Measures  
+✔ Sports Analytics Visualization  
+
+---
+
+# 📸 Dashboard Preview
+
+## Tournament Overview
+![Overview](overview.png)
+
+## Batting Stats
+![Batting](batting.png)
+
+## Bowling Stats
+![Bowling](bowling.png)
+
+## Partnership Stats
+![Partnership](partnership.png)
+
+## Player Comparison
+![Comparison](comparison.png)
+
+---
+
+# 👨‍💻 Author
+
+**Harish Gandhi**
+
+Frontend Developer | Data Analytics Enthusiast
+
+Portfolio  
+https://harishgandhi.netlify.app
+
+LinkedIn  
+https://www.linkedin.com/in/harish-gandhi-s
+
+---
+
+⭐ If you like this project, give it a **star on GitHub**
