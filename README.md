@@ -169,19 +169,29 @@ Users can select **two players to compare their performance side-by-side**.
 # 📸 Dashboard Preview
 
 ## Tournament Overview
-![Overview](overview.png)
+<p align="center">
+  <img src="Images/Overview.png" width="900">
+</p>
 
 ## Batting Stats
-![Batting](batting.png)
+<p align="center">
+  <img src="Images/Batting.png" width="900">
+</p>
 
 ## Bowling Stats
-![Bowling](bowling.png)
+<p align="center">
+  <img src="Images/Bowling.png" width="900">
+</p>
 
 ## Partnership Stats
-![Partnership](partnership.png)
+<p align="center">
+  <img src="Images/Partnership.png" width="900">
+</p>
 
 ## Player Comparison
-![Comparison](comparison.png)
+<p align="center">
+  <img src="Images/Playercomparison.png" width="900">
+</p>
 
 ---
 
